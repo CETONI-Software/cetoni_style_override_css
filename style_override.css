@@ -82,21 +82,18 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 .rst-content h1 {
   font-size: 39px;
   margin-bottom: 21px;
-  color: #04204c;
 }
 
 .rst-content h2 {
   font-size: 32px;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: #04204c;
 }
 
 .rst-content h3 {
   font-size: 26px;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: #04204c;
 }
 
 .rst-content h4 {
@@ -104,7 +101,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
   font-size: 19px;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: #04204c;
 }
 
 .rst-content h5 {
@@ -112,7 +108,6 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
   font-size: 17px;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: #04204c;
 }
 
 .rst-content h6 {
@@ -120,13 +115,20 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
   font-size: 15px;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: #04204c;
 }
 
 .rst-content li {
   margin-bottom: 8px;
 }
 
+html:not([data-theme='dark']) .rst-content h1, 
+html:not([data-theme='dark']) .rst-content h2, 
+html:not([data-theme='dark']) .rst-content h3, 
+html:not([data-theme='dark']) .rst-content h4, 
+html:not([data-theme='dark']) .rst-content h5, 
+html:not([data-theme='dark']) .rst-content h6 {
+  color: #04204c;
+}
 
 /* Use "Brand light blue" for ToC heading */
 body > div.wy-grid-for-nav > nav > div > div.wy-menu.wy-menu-vertical > p > span {
