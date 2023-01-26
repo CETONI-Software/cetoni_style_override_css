@@ -109,3 +109,34 @@
     padding: 4px;
     font-weight: bold;
 }
+
+
+.yellow-marker {
+    background-color: #ffc000;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.green-marker {
+    background-color: #92d050;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.blue-marker {
+    background-color: #00b0f0;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.pink-marker {
+    background-color: #ff6699;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.red-marker {
+    background-color: #eb5627;
+    padding: 4px;
+    font-weight: bold;
+}
